@@ -21,6 +21,13 @@
   border-width: 20px;
   border-color: red;
 }
+#foot {
+  font-style: italic;
+  font-size: 12px;
+  margin: 5px auto;
+  width:80%;
+  padding-top:20px;
+}
 .rectangle {
     width: 220px;
     height: 120px;
