@@ -2,19 +2,65 @@
 <head>
   <title>West Elm Capital</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <h1>I'm on the left</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img class="navbar-brand" src="westelmcapital_horizontal.png">
       </div>
-      <div class="col-sm-6">
-        <h1>I'm on the right</h1>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://rbrinckman.github.io/whoweare.html">Who We Are</a></li>
+          <li><a href="https://rbrinckman.github.io/investmentfocus.html">Investment Focus</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="mailto:robert.g.brinckman@gmail.com">Email us.</a></li>
+              <li><a href="https://flypigeon.co/">Send us a carrier pigeon</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://rbrinckman.github.io/">
+        <h1>west elm capital</h1>
+      </a>
+    </div>
+    <div class="col-md-8 hidden-sm hidden-xs">
+      <h3>a chicago-based firm investing in excellent small businesses around the country.</h3>
+    </div>
+  </div>
+  <div class="row">
+    <img src="rockies.jpg" width=100% height=50%>
+  </div>
+  <div class="row">
+    <h1>who we are</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <img class="img-responsive" src="sonofman-headshot.png">
+    </div>
+    <div class="col-md-9">
+      <p>We are a group of investment professionals with over three decades of investment and operational experience with small companies.  Our backgrounds include capital allocation, staff/recruiting, strategic development and customer acquisition.  We have a keen interest in making controlling investments in healthy, strong companies and helping take them to the next level.</p>
+      <p>If your company is ready for a liquidation event, or interested in discussing over exit opportunties, please contact us.</p>
     </div>
   </div>
 </body>
+<p id="foot">© 2016 West Elm Capital, LLC. All rights reserved.</p>
+</html>

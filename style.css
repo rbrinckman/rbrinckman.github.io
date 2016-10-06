@@ -39,7 +39,7 @@
   padding: 0;
   margin: 8px auto;
   height: 2;
-  width: 80%;
+  width: 100%;
   max-height: 0;
   font-size: 2px;
   line-height: 0;
@@ -60,8 +60,23 @@ h3{
   font-size:15px;
   font-style:italic;
 }
+h4{
+  color:#0817ae;
+  font-size:15px;
+  font-style:italic;
+}
 .footer {
   font-size: 9px;
   margin-top: 250px;
   padding-top: 50px;
 }
+table {
+  width: 100%;
+}
+th,td {
+  height:40px;
+}
+th {
+  border-bottom:1px solid black;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
